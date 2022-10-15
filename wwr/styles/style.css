@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Fredoka+One&display=swap');
+
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +10,7 @@ nav a{
     text-align: center;
     color: rgb(21, 0, 255);
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -29,57 +33,65 @@ main section{
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: rgb(0, 183, 255);
 }
 
 body {
+    font-family: "Fredoka One", "monospace", sans-serif;
     background-color: rgb(187, 223, 255);
     color: black;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: rgb(112, 196, 207);
 }
 
-.book {
+.book, .join {
     background-color: rgb(177, 214, 246);
     color: black;
     text-decoration: none;
-
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 } 
 
-.join{
-    background-color: rgb(177, 214, 246);
-    color: black;
-    text-decoration: none;
-}
-
-.book:hover {
+.book:hover, .join:hover {
     background-color: aqua;
     color: black;
 }
 
-.join:hover {
-    background-color: aqua;
-    color: black;
-}
 
 .msg {
     background-color: rgb(0, 119, 255);
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: rgb(255, 255, 255);
+    font-family: "monospace", "Rockwell", sans-serif;
 }
 
 .msg p {
     color: rgb(255, 255, 255);
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: rgb(112, 196, 207);
+    padding: 25px 50px;
+    padding-top: 15px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -100,11 +112,18 @@ footer p a:hover {
 }
 
 .home-title {
+    font-size: 2em;
+    font-family: "Bungee Spice", "Copperplate Gothic Light", sans-serif;
     color: rgb(17, 0, 255);
+    margin-top: 10px;
 }
 
 h4 {
     color: rgb(0, 115, 255);
+}
+
+h2 {
+    margin: 0;
 }
 
 .logo {
@@ -113,8 +132,25 @@ h4 {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.social img {
+    padding-top: 15px;
+}
+
+.rivers_card, .camping_card, .rapids_card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid rgb(17, 0, 255);
 }

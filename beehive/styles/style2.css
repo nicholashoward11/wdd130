@@ -11,6 +11,7 @@ header {
 header img {
     height: 100px;
     width: 100px;
+    border-style: double;
 }
 
 nav {
@@ -66,6 +67,7 @@ section {
 
 #title img {
     width: 1000px;
+    border-style: solid;
 }
 
 #title {
@@ -92,7 +94,8 @@ section {
 }
 
 #why p {
-    background-color: white;
+    border-style: dashed;
+    background-color: #E7C24F;
     padding: 10px;
 }
 
@@ -106,12 +109,14 @@ section {
 
 #foods img{
     grid-column: 1/2;
-    padding: 10px;
+    margin: 10px;
+    border-style: solid;
 }
 
 #foods p {
     grid-column: 2/3;
-    background-color: white;
+    border-style: dashed;
+    background-color: #E7C24F;
     padding: 10px;
 }
 

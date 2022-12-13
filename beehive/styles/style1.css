@@ -9,6 +9,7 @@ header {
 }
 
 header img {
+    border-style: double;
     height: 100px;
     width: 100px;
 }
@@ -73,6 +74,10 @@ section {
     margin: 0;
 }
 
+#center_logo img {
+    border-style: solid;
+}
+
 #title {
     grid-column: 2/3;
     grid-row: 2/3;
@@ -98,7 +103,8 @@ section {
 #graph p {
     grid-column: 2/3;
     padding: 10px;
-    background-color: white;
+    border-style: dashed;
+    background-color: #E7C24F;
     height: 55%;
     text-align: left;
     align-self: center;
@@ -107,6 +113,7 @@ section {
 #graph img {
     grid-column: 1/2;
     margin-right: 50px;
+    border-style: solid;
 }
 
 #pesticide {
@@ -118,7 +125,8 @@ section {
 
 #pesticide p {
     grid-column: 1/2;
-    background-color: white;
+    border-style: dashed;
+    background-color: #E7C24F;
     padding: 15px;
 }
 
@@ -126,6 +134,7 @@ section {
     grid-column: 2/3;
     margin-left: 50px;
     align-self: center;
+    border-style: solid;
 }
 
 footer {

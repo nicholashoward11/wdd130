@@ -11,6 +11,7 @@ header {
 header img {
     height: 100px;
     width: 100px;
+    border-style: double;
 }
 
 nav {
@@ -73,7 +74,9 @@ section {
 }
 
 #title p {
-    background-color: white;
+    border-style: dashed;
+    background-color: #E7C24F;
+    padding: 10px;
 }
 
 #title h1 {
@@ -95,12 +98,14 @@ section {
 #beeflowers p {
     grid-column: 2/3;
     padding: 10px;
-    background-color: white;
+    border-style: dashed;
+    background-color: #E7C24F;
 }
 
 #beeflowers img {
     grid-column: 1/2;
-    padding: 10px;
+    margin: 10px;
+    border-style: solid;
 }
 
 #beebath {
@@ -113,12 +118,14 @@ section {
 
 #beebath img{
     grid-column: 1/2;
-    padding: 10px;
+    margin: 10px;
+    border-style: solid;
 }
 
 #beebath p {
     grid-column: 2/3;
-    background-color: white;
+    border-style: dashed;
+    background-color: #E7C24F;
     padding: 10px;
 }
 
@@ -130,7 +137,9 @@ section {
 }
 
 #motivation p {
-    background-color: white;
+    border-style: dashed;
+    background-color: #E7C24F;
+    padding: 10px;
 }
 
 
